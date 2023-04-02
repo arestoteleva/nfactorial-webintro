@@ -1,0 +1,59 @@
+
+.red-line {
+    height: 20px;
+    background-color: red;
+  }
+  .blue-line {
+    height: 20px;
+    background-color: blue;
+    
+  } 
+
+  .Raw1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .green-line{
+    height: 20px;
+    background-color: green;
+  }
+
+  .Raw2 {
+    display: grid;
+    grid-template-columns: 90% 10%;
+  }
+
+  .Raw3 {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+  }
+
+  .Raw4 {
+    display: grid;
+    grid-template-columns: 90% 10%;
+  }
+
+  .Raw5 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 100%;
+    position: relative;
+  }
+  .red-line5, .green-line5 {
+    position: absolute;
+  }
+  .green-line5 {
+    background-color: green;
+    width: 100%;
+    height: 100%;
+  }
+  .red-line5 {
+    background-color: red;
+    width: 13px;
+    height: 13px;
+  }
+  
+  
